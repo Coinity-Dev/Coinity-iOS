@@ -1,4 +1,4 @@
-# Coinity-iOS
+# Coinity iOS 앱
 
 ## 프로젝트 소개
 Coinity는 암호화폐 거래 및 시세 정보를 제공하는 iOS 앱입니다.
