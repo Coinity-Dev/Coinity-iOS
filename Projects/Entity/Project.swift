@@ -2,10 +2,10 @@ import ProjectDescription
 import ProjectDescriptionHelpers
 
 let project = Project.makeModule(
-    name: "Domain",
+    name: "Entity",
     targets: [.staticFramework],
     internalDependencies: [
-        .core,
-        .entity
-    ]
+        .core
+    ],
+    hasResources: false
 ) 

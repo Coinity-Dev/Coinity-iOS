@@ -28,6 +28,10 @@ public extension ProjectDescription.Path {
         return .relativeToRoot("Projects/Domain")
     }
     
+    static var entity: Self {
+        return .relativeToRoot("Projects/Entity")
+    }
+
     static var core: Self {
         return .relativeToRoot("Projects/Core")
     }

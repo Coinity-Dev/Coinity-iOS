@@ -7,8 +7,7 @@ let project = Project.makeModule(
     targets: [.app],
     internalDependencies: [
         .feature,
-        .domain,
-        .dsKit
+        .data
     ],
     hasResources: true
 ) 

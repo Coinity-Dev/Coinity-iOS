@@ -21,6 +21,8 @@ public extension Dep {
     
     static let domain = Dep.project(target: "Domain", path: .domain)
     
+    static let entity = Dep.project(target: "Entity", path: .entity)
+
     static let feature = Dep.project(target: "Feature", path: .feature)
     
     static let core = Dep.project(target: "Core", path: .core)
