@@ -4,8 +4,8 @@
 Coinity는 암호화폐 거래 및 시세 정보를 제공하는 iOS 앱입니다.
 
 ## 개발 환경
-- Xcode 15.0+
-- Swift 5.9+
+- Xcode 16.3+
+- Swift 6.0+
 - iOS 16.0+
 - [Tuist](https://tuist.io) 4.48.0+
 
@@ -36,4 +36,4 @@ tuist generate
 
 ## 코드 컨벤션
 - SwiftLint를 사용하여 코드 스타일 유지
-- MVVM 아키텍처 패턴 사용
+- VIP Architecture 패턴 사용
