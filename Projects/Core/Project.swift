@@ -5,7 +5,7 @@ let project = Project.makeModule(
     name: "Core",
     targets: [.staticFramework],
     externalDependencies: [
-        .SPM.Then
+        
     ],
     hasResources: true
 ) 

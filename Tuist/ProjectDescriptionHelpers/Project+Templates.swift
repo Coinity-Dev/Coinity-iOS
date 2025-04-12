@@ -161,8 +161,7 @@ public extension Project {
                 dependencies: [
                     deps,
                     [
-                        .SPM.Quick,
-                        .SPM.Nimble
+
                     ]
                 ].flatMap { $0 },
                 settings: .settings(base: SettingsDictionary().setCodeSignAutomatic(),

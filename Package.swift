@@ -21,17 +21,10 @@ let package = Package(
     name: "Coinity",
     dependencies: [
         // MARK: - Network
-        .package(url: "https://github.com/Alamofire/Alamofire.git", from: "5.6.4"),
+        .package(url: "https://github.com/Alamofire/Alamofire.git", from: "5.10.2"),
         
         // MARK: - UI
-        .package(url: "https://github.com/onevcat/Kingfisher.git", from: "7.0.0"),
-        
-        // MARK: - Utils
-        .package(url: "https://github.com/SnapKit/SnapKit.git", from: "5.6.0"),
-        .package(url: "https://github.com/devxoul/Then.git", from: "3.0.0"),
-        
-        // MARK: - Test
-        .package(url: "https://github.com/Quick/Quick", from: "7.0.0"),
-        .package(url: "https://github.com/Quick/Nimble", from: "12.0.0")
+        .package(url: "https://github.com/onevcat/Kingfisher.git", from: "8.3.2"),
+        .package(url: "https://github.com/airbnb/lottie-ios.git", from: "4.5.1"),
     ]
 ) 

@@ -17,12 +17,5 @@ public extension TargetDependency.SPM {
     
     // MARK: - UI
     static let Kingfisher = TargetDependency.external(name: "Kingfisher", condition: .none)
-    static let SnapKit = TargetDependency.external(name: "SnapKit", condition: .none)
-    
-    // MARK: - Utils
-    static let Then = TargetDependency.external(name: "Then", condition: .none)
-    
-    // MARK: - Test
-    static let Quick = TargetDependency.external(name: "Quick", condition: .none)
-    static let Nimble = TargetDependency.external(name: "Nimble", condition: .none)
+    static let Lottie = TargetDependency.external(name: "lottie-ios", condition: .none)
 }
